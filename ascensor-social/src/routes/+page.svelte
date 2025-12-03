@@ -1,6 +1,7 @@
 <script lang="ts">
     import CurvaMovilidad from "$lib/components/CurvaMovilidad.svelte";
     import RankingCCAA from "$lib/components/RankingCCAA.svelte";
+    import HeatmapQuintiles from "$lib/components/HeatmapQuintiles.svelte";
 </script>
 
 <svelte:head>
@@ -22,7 +23,7 @@
         </p>
 
         <!-- Tarjetas principales del dashboard -->
-        <section class="grid gap-6 md:grid-cols-2">
+        <section class="grid gap-6 md:grid-cols-1">
             <!-- Curva nacional -->
             <article class="bg-slate-900/70 border border-slate-800 rounded-xl p-4 shadow">
                 <h2 class="text-xl font-semibold mb-2">
@@ -56,7 +57,7 @@
                     Probabilidades de pasar de un quintil de origen a uno de destino entre regiones.
                 </p>
                 <div class="h-64 flex items-center justify-center text-slate-500 text-sm">
-                    Aquí irá el heatmap de quintiles
+                    <HeatmapQuintiles />
                 </div>
             </article>
             <!-- Conversor centil a euros -->

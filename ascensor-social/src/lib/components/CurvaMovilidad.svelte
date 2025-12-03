@@ -25,7 +25,7 @@
                     label: 'Centil esperado del hijo (LOESS)',
                     data: centilesHijos,
                     borderColor: '#38bdf8',
-                    borderWidth: 2,
+                    borderWidth: 3,
                     tension: 0.25,
                     pointRadius: 0
                 }]
