@@ -48,12 +48,12 @@
                     width: (ctx) => {
                         const chart = ctx.chart;
                         if(!chart.chartArea) return 0;
-                        return chart.chartArea.width / quintiles.length + 22;
+                        return chart.chartArea.width / quintiles.length + 9;
                     },
                     height: (ctx) => {
                         const chart = ctx.chart;
                         if(!chart.chartArea) return 0;
-                        return chart.chartArea.height / quintiles.length  + 4;
+                        return chart.chartArea.height / quintiles.length  + 7;
                     }
                 }]
             },
