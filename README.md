@@ -54,12 +54,12 @@ La aplicación estará disponible en:
 ascensor-social/
 │
 ├── src/
-│   ├── routes/           # Endpoints y páginas
-│   ├── lib/              # Componentes reutilizables
-│   └── static/data/      # CSV con datos de movilidad y renta
+│   ├── routes/    
+│   ├── lib/       
+│   └── static/data/   
 │
-├── build/                # Build de producción (adapter-node)
-├── Dockerfile            # Imagen Docker lista para producción
+├── build/   
+├── Dockerfile 
 ├── .dockerignore
 ├── package.json
 └── README.md
