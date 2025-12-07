@@ -11,7 +11,7 @@
     </title>
 </svelte:head>
 
-<main class="min-h-screen bg-slate-950 text-slate-100">
+<main class="min-h-screen bg-zinc-950 text-slate-100">
     <div class="mx-auto max-w-6xl px-4 py-8 space-y-8">
         <!-- Encabezado -->
         <header id="top" class="space-y-2">
@@ -24,7 +24,7 @@
         <div class="space-y-10">
 
             <!-- Curva Nacional de Movilidad -->
-            <section class="bg-slate-950 border border-slate-800 rounded-2xl p-6 lg:p-8 shadow-xl">
+            <section class="bg-white border border-slate-200 rounded-xl p-6 lg:p-8 shadow-lg">
                 <header class="mb-4">
                     <h2 class="text-xl font-semibold text-white">Curva Nacional de Movilidad</h2>
                     <p class="text-slate-300 text-sm">
@@ -37,8 +37,8 @@
                         <CurvaMovilidad />
                     </div>
                     <!-- Interpretación -->
-                    <article class="text-slate-200 text-sm space-y-3">
-                        <h3 class="font-semibold text-sky-300">¿Qué muestra la gráfica?</h3>
+                    <article class="text-slate-700 text-sm space-y-3">
+                        <h3 class="font-semibold text-blue-700">¿Qué muestra la gráfica?</h3>
                         <p>
                             La curva representa la movilidad intergeneracional en España: para cada centil de renta de
                             los padres se muestra el centil esperado de los hijos en la edad adulta.
@@ -49,7 +49,7 @@
                             se mantienen relativamente estables y los de rentas altas concentran ventajas persistentes,
                             especialmente a partir del centil 80.
                         </p>
-                        <p class="font-semibold text-sky-300">Conclusión</p>
+                        <p class="font-semibold text-blue-700">Conclusión</p>
                         <p>
                             España presenta cierta movilidad ascendente en la parte baja de la distribución, pero también
                             una fuerte persistencia en la parte alta: quién nace muy arriba tiene muchas más probabilidades
@@ -59,7 +59,7 @@
                 </div>
             </section>
             <!-- Ranking por CCAA -->
-            <section class="bg-slate-950 border border-slate-800 rounded-2xl p-6 lg:p-8 shadow-xl">
+            <section class="bg-white border border-slate-200 rounded-xl p-6 lg:p-8 shadow-lg">
                 <header class="mb-4">
                     <h2 class="text-xl font-semibold text-white">
                         Movilidad por CCAA (padres en el centil 20)
@@ -74,8 +74,8 @@
                         <RankingCCAA />
                     </div>
                     <!-- Interpretación -->
-                    <article class="text-slate-200 text-sm space-y-3">
-                        <h3 class="font-semibold text-sky-300">¿Qué muestra la gráfica?</h3>
+                    <article class="text-slate-700 text-sm space-y-3">
+                        <h3 class="font-semibold text-blue-700">¿Qué muestra la gráfica?</h3>
                         <p>
                             Cada barra representa una comunidad autónoma y el centil medio que alcanzan los hijos cuando
                             los padres se sitúan en el centil 20 de renta nacional.
@@ -85,7 +85,7 @@
                             situarse más arriba en la distribución de renta. Las que aparecen más abajo reflejan contextos
                             donde el ascenso es más difícil.
                         </p>
-                        <p class="font-semibold text-sky-300">Conclusión</p>
+                        <p class="font-semibold text-blue-700">Conclusión</p>
                         <p>
                             El territorio importa: nacer en ciertas comunidades ofrece más oportunidades de movilidad
                             ascendente que en otras, lo que sugiere diferencias en mercado laboral, estructura productiva
@@ -95,7 +95,7 @@
                 </div>
             </section>
             <!-- Matriz de transición de quintiles -->
-            <section class="bg-slate-950 border border-slate-800 rounded-2xl p-6 lg:p-8 shadow-xl">
+            <section class="bg-white border border-slate-200 rounded-xl p-6 lg:p-8 shadow-lg">
                 <header class="mb-4">
                     <h2 class="text-xl font-semibold text-white">Matriz de transición de quintiles</h2>
                     <p class="text-slate-300 text-sm">
@@ -108,8 +108,8 @@
                         <HeatmapQuintiles />
                     </div>
                     <!-- Interpretación -->
-                    <article class="text-slate-200 text-sm space-y-3">
-                        <h3 class="font-semibold text-sky-300">¿Qué muestra la gráfica?</h3>
+                    <article class="text-slate-700 text-sm space-y-3">
+                        <h3 class="font-semibold text-blue-700">¿Qué muestra la gráfica?</h3>
                         <p>
                             Cada celda recoge la probabilidad (en porcentaje) de que un hijo termine en un quintil de renta
                             determinado, dado el quintil de renta de sus padres. Los colores más intensos indican transiciones
@@ -120,7 +120,7 @@
                             Las celdas por encima de la diagonal muestran movilidad ascendente y las que están por debajo,
                             movilidad descendente.
                         </p>
-                        <p class="font-semibold text-sky-300">Conclusión</p>
+                        <p class="font-semibold text-blue-700">Conclusión</p>
                         <p>
                             La matriz muestra que existe movilidad en todos los niveles, pero también una fuerte inercia:
                             los extremos de la distribución (quintil más bajo y más alto) tienden a reproducirse entre
@@ -130,7 +130,7 @@
                 </div>
             </section>
             <!-- Simulador del Ascensor Social -->
-            <section class="bg-slate-950 border border-slate-800 rounded-2xl p-6 lg:p-8 shadow-xl">
+            <section class="bg-white border border-slate-200 rounded-xl p-6 lg:p-8 shadow-lg">
                 <header class="mb-4">
                 <h2 class="text-xl font-semibold text-white">Conversor de centiles a euros</h2>
                     <p class="text-slate-300 text-sm">
@@ -144,8 +144,8 @@
                         <SimuladorAscensor />
                     </div>
                     <!-- Explicación del cálculo -->
-                    <article class="text-slate-200 text-sm space-y-3">
-                        <h3 class="font-semibold text-sky-300">¿Cómo se calculan los resultados?</h3>
+                    <article class="text-slate-700 text-sm space-y-3">
+                        <h3 class="font-semibold text-blue-700">¿Cómo se calculan los resultados?</h3>
                         <p>
                             El usuario elige un centil de renta para los padres. A partir de la curva nacional de movilidad se
                             obtiene el centil esperado del hijo utilizando la estimación suavizada (LOESS).
@@ -158,7 +158,7 @@
                             Finalmente, se compara el centil del hijo con el de los padres para clasificar el caso como
                             movilidad ascendente, descendente o estabilidad, y se muestra una interpretación automática.
                         </p>
-                        <p class="font-semibold text-sky-300">Conclusión</p>
+                        <p class="font-semibold text-blue-700">Conclusión</p>
                         <p>
                             El simulador traduce la movilidad intergeneracional a cifras concretas de renta, permitiendo
                             visualizar cuánto puede ganar o perder un hogar típico al “subir” o “bajar” en el ascensor social.
@@ -170,7 +170,7 @@
     </div>
 </main>
 <!-- Footer -->
-<footer class="border-t border-slate-700 bg-slate-950 py-8 px-6">
+<footer class="border-t border-slate-200 bg-slate-900 py-8 px-6">
     <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-slate-300 text-sm">
         <div class="mx-auto">
             <h3 class="text-center font-semibold text-sky-400 mb-3">Proyecto Ascensor Social</h3>
