@@ -32,7 +32,7 @@
 		<!-- Curva Nacional de Movilidad -->
 		<div class="space-y-10">
 			<section
-				class="bg-white border border-slate-200 rounded-xl p-6 lg:p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
+				class="bg-white border border-slate-200 rounded-xl p-6 lg:p-8 shadow-lg hover:shadow-2xl transition-shadow duration-300"
 			>
 				<header class="mb-4">
 					<h2 class="text-xl font-semibold text-slate-800">Curva Nacional de Movilidad</h2>
@@ -69,7 +69,7 @@
 			</section>
 			<!-- Ranking por CCAA -->
 			<section
-				class="bg-white border border-slate-200 rounded-xl p-6 lg:p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
+				class="bg-white border border-slate-200 rounded-xl p-6 lg:p-8 shadow-lg hover:shadow-2xl transition-shadow duration-300"
 			>
 				<header class="mb-4">
 					<h2 class="text-xl font-semibold text-slate-800">
@@ -108,7 +108,7 @@
 			</section>
 			<!-- Matriz de transición de quintiles -->
 			<section
-				class="bg-white border border-slate-200 rounded-xl p-6 lg:p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
+				class="bg-white border border-slate-200 rounded-xl p-6 lg:p-8 shadow-lg hover:shadow-2xl transition-shadow duration-300"
 			>
 				<header class="mb-4">
 					<h2 class="text-xl font-semibold text-slate-800">Matriz de transición de quintiles</h2>
@@ -146,7 +146,7 @@
 			</section>
 			<!-- Simulador del Ascensor Social -->
 			<section
-				class="bg-white border border-slate-200 rounded-xl p-6 lg:p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
+				class="bg-white border border-slate-200 rounded-xl p-6 lg:p-8 shadow-lg hover:shadow-2xl transition-shadow duration-300"
 			>
 				<header class="mb-4">
 					<h2 class="text-xl font-semibold text-slate-800">Conversor de centiles a euros</h2>
@@ -196,7 +196,7 @@
 		<div class="mx-auto">
 			<h3 class="text-center font-semibold text-blue-400 mb-3">Proyecto Ascensor Social</h3>
 			<p class="text-center">
-				Visualización de de movilidad intergeneracional, basada en datos reales de distribución de
+				Visualización de movilidad intergeneracional, basada en datos reales de distribución de
 				renta y modelos de movilidad social.
 			</p>
 		</div>
@@ -219,7 +219,7 @@
 			</ul>
 		</div>
 		<div class="mx-auto">
-			<h3 class="text-center font-semibold text-blue-400 mb-3">Autor</h3>
+			<h3 class="text-center font-semibold text-blue-400 mb-3">Autores</h3>
 			<p class="text-center">
 				Proyecto desarrollado por <span class="text-white font-medium"
 					>Jose Alejandro, Alireza, Alberto</span
